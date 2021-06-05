@@ -1,0 +1,32 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+nav, footer{
+    background-color: #E83E8C;
+}
+
+h1, h2, h5{
+    font-weight: 700!important;
+}
+
+h1{
+    color:#707070;
+}
+
+.card{ /* Centrado de cartas - Stack Overflow */
+    margin: 0 auto; 
+}
+
+.contacto{
+    color: #E83E8C;
+    transition: all 500ms ease;
+}
+
+footer:hover > .contacto{
+    color:white;
+}
+
+.card-body a{
+    text-decoration: none;
+}
